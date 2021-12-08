@@ -1,5 +1,5 @@
 import type { ViteBundlerOptions } from '@vuepress/bundler-vite'
-import { defineUserConfig } from '@vuepress/cli'
+import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from '@vuepress/theme-default'
 
 export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
